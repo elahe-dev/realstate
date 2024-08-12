@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+    </head>
+    <body>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/moblogo.png" alt="logo" width="160">
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="modal" data-target="#navmob"
+                    aria-controls="navmob" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="invest.html">invest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourFirm.html">our firm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                                data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false">Resources Center</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item"
+                                    href="resourceCenterInsight.html">insight</a>
+                                <a class="dropdown-item"
+                                    href="resourceCenterUniversity.html">university</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">raise
+                                capital</a>
+                        </li>
+                    </ul>
+                    <div class="right-block">
+                        <a href="login.html" class="login nav-link">login</a>
+                        <a href="signUp.html" class="sign-up nav-link">
+                            <span class="align-middle">create acount</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="modal" tabindex="-1" id="navmob" aria-labelledby="navmob" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <nav class="navbar mob-menu" id="">
+                    <ul class="nav navbar-nav flex-column">
+                        <li class="nav-item get-str">
+                          <a class="nav-link active" href="signUp.html">Get Started
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="invest.html">Invest</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ourFirm.html">Our Firm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDr" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources Center
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDr">
+                              <a class="dropdown-item" href="faq.html">FAQ</a>
+                              <a class="dropdown-item" href="resourceCenterInsight.html">the blog “Accrue | Insights”</a>
+                              <a class="dropdown-item" href="resourceCenterUniversity.html">Accrete University</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">Raise Capital</a>
+                          </li>
+                      </ul>  
+                </nav>
+              </div>
+            </div>
+        </div>
+        <main role="main" class="question">
+            <section class="container-fluid page part1" id="part1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active exit"><span></span><h6>Start</h6></li>
+                                    <li class="active"><span></span><h6>Pre sign
+                                            up
+                                            <small class="d-block
+                                                xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block
+                                                xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-6 col-md-9
+                            justify-content-center">
+                            <div class="header text-center">
+                                <h2 class="text-uppercase font-weight-bold">Investor
+                                    Questionnaire</h2>
+                            </div>
+                            <div class="mid-content text-center"">
+                                <p>The following questionnaire is an important
+                                    part of Moonfare’s evaluation process of its
+                                    potential
+                                    investors and is based on applicable
+                                    securities laws and regulations.
+                                </p>
+                                <p>
+                                    The more information you provide here, the
+                                    easier it will be to evaluate your
+                                    application.
+                                    All information will be kept confidential in
+                                    accordance with Moonfare’s
+                                    <a href="#" target="_blank" rel="noopener
+                                        noreferrer"><u>Privacy Policy</u></a>.</p>
+                            </div>
+                            <div class="row justify-content-center ba10">
+                                <a class="col-12 col-lg-10 text-capitalize
+                                    text-center" onclick="showhide('part2');"
+                                    target="_blank"
+                                    rel="noopener noreferrer">Fill Questionnaire</a>
+                                <a href="signUp.html" 
+                                class="col-12 col-lg-10
+                                    text-capitalize text-center" target="_blank"
+                                    rel="noopener noreferrer">Complete Profile Later</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container-fluid page hide part2" id="part2">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active exit"><span></span><h6>Start</h6></li>
+                                    <li class="active"><span></span><h6>Pre sign
+                                            up
+                                            <small class="d-block
+                                                xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block
+                                                xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                            <div class="row mid-content">
+                                <div class="col-12 col-lg-10 offset-lg-1">
+                                    <div class="state1">
+                                        <h3>Describe your return risk profile ...</h3>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 col-md-4">
+                                                <div class="cover">
+                                                    <h5>conservative</h5>
+                                                    <span>Lowest level of volatility moderate</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-4 col-md-4">
+                                                <div class="cover">
+                                                    <h5>Moderate</h5>
+                                                    <span>Balanced approach aggressive</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-4 col-md-4">
+                                                <div class="cover">
+                                                    <h5>Aggressive</h5>
+                                                    <span>High risk, High return</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                               
+                                    
+                                    <div class="state2">
+                                        <h3>What is your desired investment horizon for alternative investments?</h3>
+                                        <p>Please note that the typical hold period for Accrete Capital investment is 4-7 years. Investors may have an option to sell their investments
+                                            after 6 months on our secondary Market</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="RadiosJob" id="RadiosJob1" value="option1">
+                                            <label class="form-check-label" for="RadiosJob1">
+                                                Less than 1 year
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="RadiosJob" id="RadiosJob2" value="option2">
+                                            <label class="form-check-label" for="RadiosJob2">
+                                                1-3 years
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="RadiosJob" id="RadiosJob3" value="option3">
+                                            <label class="form-check-label" for="RadiosJob3">
+                                                4-7 years
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="RadiosJob" id="RadiosJob4" value="option4" >
+                                            <label class="form-check-label" for="RadiosJob4">
+                                                8 years or more
+                                            </label>
+                                          </div>
+                                    </div>
+    
+                                    <div class="state3 last-part">
+                                        <h3>What are your alternative investing goals?</h3>
+                                        <small class="text-muted d-block">Select any that apply</small>
+                                        <ul class="list-unstyled row">
+                                            <li class="col-6 col-lg-3 col-md-6"><a href="#" target="_blank" rel="noopener noreferrer">Diversification</a></li>
+                                            <li class="col-6 col-lg-3 col-md-6"><a href="#" target="_blank" rel="noopener noreferrer">Return profile</a></li>
+                                            <li class="col-6 col-lg-3 col-md-6"><a href="#" target="_blank" rel="noopener noreferrer">Cash flow</a></li>
+                                            <li class="col-6 col-lg-3 col-md-6"><a href="#" target="_blank" rel="noopener noreferrer">Tax benefits</a></li>
+                                        </ul>
+                                        <span>Any other goals you’d like us to know? (Optional)</span>
+                                        <input type="text" name="" id="" placeholder="Describe">
+                                          <div class="row justify-content-end">
+                                            <div class="col-lg-5 col-md-8 col-11 ba10">
+                                                <a onclick="showhide('part1');" target="_blank" rel="noopener noreferrer">Back</a>
+                                                <a onclick="showhide('part3');" target="_blank" rel="noopener noreferrer">Next Step</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container-fluid page hide part3" id="part3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active exit"><span></span><h6>Start</h6></li>
+                                    <li class="active"><span></span><h6>Pre sign
+                                            up
+                                            <small class="d-block
+                                                xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block
+                                                xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                            <div class="row mid-content">
+                                <div class="col-12 col-lg-10 offset-lg-1">
+                                    <div class="state1">
+                                        <h4>What is your approximate net worth?</h4>
+                                        <div class="row radio">
+                                            <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash1" value="option1">
+                                                <label class="form-check-label" for="Radioscash1">$ 500k or less</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash2" value="option2">
+                                                <label class="form-check-label" for="Radioscash2">$ 500k - $ 1m </label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash3" value="option3">
+                                                <label class="form-check-label" for="Radioscash3">$ 1m - $ 3m</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash4" value="option4" >
+                                                <label class="form-check-label" for="Radioscash4">$ 3m - $ 5m</label>                                      
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash5" value="option5">
+                                                <label class="form-check-label" for="Radioscash5">$ 5m - $ 10m</label>                                  
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash6" value="option6">
+                                                <label class="form-check-label" for="Radioscash6">$ 10m +</label>                                  
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="radio" name="cash" id="Radioscash7" value="option7">
+                                                <label class="form-check-label" for="Radioscash7">I prefer not to say</label>                                  
+                                              </div>
+                                        </div>
+                                    </div>                               
+                                    
+                                    <div class="state4 last-part">
+                                        <h4>Which alternative investment opportunities are your interested in?
+                                        </h4>
+                                        <small class="text-muted d-block">Choose one or more of the following
+                                        </small>
+                                        <div class="row checkboxs">
+                                            <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience1" value="option1">
+                                                <label class="form-check-label" for="experience1">Private equity</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience2" value="option2">
+                                                <label class="form-check-label" for="experience2">Real estate</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience3" value="option3">
+                                                <label class="form-check-label" for="experience3">Infrastructure investments</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience4" value="option4">
+                                                <label class="form-check-label" for="experience4">Credit</label>
+                                              </div>
+                                              <div class="form-chec col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience5" value="option5">
+                                                <label class="form-check-label" for="experience5">Hedge funds</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience6" value="option6">
+                                                <label class="form-check-label" for="experience6">Private equity funds</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience7" value="option7">
+                                                <label class="form-check-label" for="experience7">Real estate funds</label>
+                                              </div>
+                                              <div class="form-check col-12">
+                                                <input class="form-check-input" type="checkbox" id="experience8" value="option8">
+                                                <label class="form-check-label" for="experience8">Hedge funds</label>
+                                              </div>
+                                        </div>
+                                          <div class="row justify-content-end">
+                                            <div class="col-lg-5 col-md-8 col-11 ba10">
+                                                <a onclick="showhide('part2');" target="_blank" rel="noopener noreferrer">Back</a>
+                                                <a href="KYC.html" target="_blank" rel="noopener noreferrer">Next Step</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- <section class="container-fluid page hide part4" id="part4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active exit"><span></span><h6>Start</h6></li>
+                                    <li class="active"><span></span><h6>Pre sign
+                                            up
+                                            <small class="d-block
+                                                xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block
+                                                xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                            <div class="row mid-content">
+                                <div class="col-12 col-lg-10 offset-lg-1">
+                                    <div class="state1">
+                                        <h3>Which alternative investment opportunities are you interested in?</h3>
+                                        <small class="d-block text-muted">
+                                            Choose one or more of the following
+                                        </small>
+                                        <div class="row checkboxs">
+                                            <div class="form-check col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested1" value="option1">
+                                                <label class="form-check-label" for="interested1">Venture capital funds</label>
+                                              </div>
+                                              <div class="form-check col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested2" value="option2">
+                                                <label class="form-check-label" for="interested2">Real estate funds</label>
+                                              </div>
+                                              <div class="form-check col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested3" value="option3">
+                                                <label class="form-check-label" for="interested3">Secondary private equity</label>
+                                              </div>
+                                              <div class="form-check col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested4" value="option4">
+                                                <label class="form-check-label" for="interested4">Credit</label>
+                                              </div>
+                                              <div class="form-chec col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested5" value="option5">
+                                                <label class="form-check-label" for="interested5">Hedge funds</label>
+                                              </div>
+                                              <div class="form-check col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested6" value="option6">
+                                                <label class="form-check-label" for="interested6">Infrastructure funds</label>
+                                              </div>
+                                              <div class="form-chec col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested7" value="option5">
+                                                <label class="form-check-label" for="interested7">Restructuring or
+                                                    turnaround funds</label>
+                                              </div>
+                                              <div class="form-check col-12 col-lg-4 col-md-6">
+                                                <input class="form-check-input" type="checkbox" id="interested8" value="option6">
+                                                <label class="form-check-label" for="interested8">Direct investments</label>
+                                              </div>
+                                        </div>
+                                    </div>                               
+                                    
+                                    <div class="state2">
+                                        <h3>Does the fund lifetime correspond with your investment time horizon?</h3>
+                                        <small class="text-muted d-block">Private equity funds lifetime is planned for up to 10 years but can be extended beyond. These are illiquid investments.
+                                            You may not be able to cash in early and you may have to pay significant extra costs to do so.</small>
+                                        <div class="row radio">
+                                            <div class="form-check col-lg-2 col-3">
+                                                <input class="form-check-input" type="radio" name="RadiosTime" id="time1" value="option1">
+                                                <label class="form-check-label" for="time1">Yes</label>
+                                                                                      </div>
+                                              <div class="form-check col-lg-2 col-3">
+                                                <input class="form-check-input" type="radio" name="RadiosTime" id="time2" value="option2">
+                                                <label class="form-check-label" for="time2">No</label>                                          </div>
+                                              
+                                        </div>
+                                    </div>
+    
+                                    <div class="state3">
+                                        <h3>Do you understand the risk profile of private equity funds?</h3>
+                                        <small class="text-muted d-block">Investing in private equity funds is a high risk and illiquid investment and you can lose some or all of your capital.</small>
+                                        <div class="row radio">
+                                            <div class="form-check col-lg-2 col-3">
+                                                <input class="form-check-input" type="radio" name="Radiosrisk" id="risk1" value="option1">
+                                                <label class="form-check-label" for="risk1">Yes</label>
+                                                                                      </div>
+                                              <div class="form-check col-lg-2 col-3">
+                                                <input class="form-check-input" type="radio" name="Radiosrisk" id="risk2" value="option2">
+                                                <label class="form-check-label" for="risk2">No</label>                                          </div>
+                                              
+                                        </div>
+                                    </div>
+
+                                    <div class="state4 last-part">
+                                        <h3>Do you have sufficient assets or income to fulfill the long term commitment
+                                            of the fund?</h3>
+                                        
+                                        <div class="row radio">
+                                            <div class="form-check col-lg-2 col-3">
+                                                <input class="form-check-input" type="radio" name="RadiosTime" id="time1" value="option1">
+                                                <label class="form-check-label" for="time1">Yes</label>
+                                                                                      </div>
+                                              <div class="form-check col-lg-2 col-3">
+                                                <input class="form-check-input" type="radio" name="RadiosTime" id="time2" value="option2">
+                                                <label class="form-check-label" for="time2">No</label>                                          </div>
+                                              
+                                        </div>
+                                          <div class="row justify-content-end">
+                                            <div class="col-lg-5 col-md-8 col-11 ba10">
+                                                <a onclick="showhide('part2');" target="_blank" rel="noopener noreferrer">Back</a>
+                                                <a onclick="showhide('part4');" target="_blank" rel="noopener noreferrer">Next Step</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand text-capitalize" href="stanleyCapital.html">Accrete
+                        Capital</a>
+                    <ul class="navbar-nav mr-auto lg-device">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourFirm.html">our firm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stanleyCapital.html">stanley
+                                capital</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">raise
+                                capital</a>
+                        </li>
+                    </ul>
+                    <div class="right-block">
+                        <p class="lg-device">© Copyright 2020. All Rights
+                            Reserved.</p>
+                        <ul class="social navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/insta.png"
+                                        alt="instagram" sizes=""
+                                        srcset=""></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/fb.png"
+                                        alt="facebook" sizes="" srcset=""></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/twt.png"
+                                        alt="twitter" sizes="" srcset=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+            function showhide(id){
+                    if (document.getElementById) {
+                      var divid = document.getElementById(id);
+                      var divs = document.getElementsByClassName("page");
+                      for(var i = 0; i < divs.length; i++) {
+                divs[i].style.display = "none";
+            }
+                      divid.style.display = "block";
+                    } 
+                    return false;
+             }    
+                    </script>
+    </body>
+
+</html>

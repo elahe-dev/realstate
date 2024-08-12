@@ -1,0 +1,2430 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+    </head>
+    <body>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/moblogo.png" alt="logo" width="160">
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="modal" data-target="#navmob"
+                    aria-controls="navmob" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="ourFirm.html">our firm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stanleyCapital.html">stanley capital</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                                data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false">Resources Center</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="resourceCenterInsight.html">insight</a>
+                                <a class="dropdown-item" href="resourceCenterUniversity.html">university</a>
+                                
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">raise capital</a>
+                        </li>
+                    </ul>
+                    <div class="right-block">
+                        <a href="login.html" class="login nav-link">login</a>
+                        <a href="signUp.html" class="sign-up nav-link">
+                            <span class="align-middle">create acount</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="modal" tabindex="-1" id="navmob" aria-labelledby="navmob" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <nav class="navbar mob-menu" id="">
+                    <ul class="nav navbar-nav flex-column">
+                        <li class="nav-item get-str">
+                          <a class="nav-link active" href="#">Get Started
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Invest</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Our Firm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDr" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources Center
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDr">
+                              <a class="dropdown-item" href="faq.html">FAQ</a>
+                              <a class="dropdown-item" href="resourceCenterInsight.html">the blog “Accrue | Insights”</a>
+                              <a class="dropdown-item" href="resourceCenterUniversity.html">Accrete University</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Raise Capital</a>
+                          </li>
+                      </ul>  
+                </nav>
+              </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="navmob" aria-labelledby="navmob" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <nav class="navbar mob-menu" id="">
+                    <ul class="nav navbar-nav flex-column">
+                        <li class="nav-item get-str">
+                          <a class="nav-link active" href="#">Get Started
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Invest</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Our Firm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDr" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources Center
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDr">
+                              <a class="dropdown-item" href="faq.html">FAQ</a>
+                              <a class="dropdown-item" href="resourceCenterInsight.html">the blog “Accrue | Insights”</a>
+                              <a class="dropdown-item" href="resourceCenterUniversity.html">Accrete University</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Raise Capital</a>
+                          </li>
+                      </ul>  
+                </nav>
+              </div>
+            </div>
+        </div>
+        <main role="main" class="faq">
+            <section class="container-fluid block1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-6 col-md-8 justify-content-center">
+                            <h2>Hi, How we can help?</h2>
+                            <input type="search" name="search"
+                                placeholder="search" class="form-control">
+                            <div class="under-input">
+                                <span>Popular help topics :</span>
+                                <a href="#" target="_blank" rel="noopener
+                                    noreferrer">investment process,</a>
+                                <a href="#" target="_blank" rel="noopener
+                                    noreferrer">minimum investment,</a>
+                                <a href="#" target="_blank" rel="noopener
+                                    noreferrer">change password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid block2">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 align-self-center">
+                            <div class="row">
+                                <div class="col-12 col-md-3 col-lg-3">
+                                    <div class="nav flex-column nav-pills"
+                                        id="v-pills-tab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <a class="nav-link active"
+                                            id="v-pills-tab1-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab1" role="tab"
+                                            aria-controls="v-pills-tab1"
+                                            aria-selected="true">Getting started</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab2-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab2" role="tab"
+                                            aria-controls="v-pills-tab2"
+                                            aria-selected="false">Investor
+                                            accreditation</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab3-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab3" role="tab"
+                                            aria-controls="v-pills-tab3"
+                                            aria-selected="false">Investing with
+                                            an IRA</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab4-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab4" role="tab"
+                                            aria-controls="v-pills-tab4"
+                                            aria-selected="false">Investing with
+                                            an entity</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab5-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab5" role="tab"
+                                            aria-controls="v-pills-tab5"
+                                            aria-selected="false">Investment
+                                            structure</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab6-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab6" role="tab"
+                                            aria-controls="v-pills-tab6"
+                                            aria-selected="false">Risk
+                                            management</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab7-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab7" role="tab"
+                                            aria-controls="v-pills-tab7"
+                                            aria-selected="false">Fees</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab8-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab8" role="tab"
+                                            aria-controls="v-pills-tab8"
+                                            aria-selected="false">Securing your
+                                            account</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab9-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab9" role="tab"
+                                            aria-controls="v-pills-tab9"
+                                            aria-selected="false">Manage your
+                                            account</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab10-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab10" role="tab"
+                                            aria-controls="v-pills-tab10"
+                                            aria-selected="false">Your
+                                            investments</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab11-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab11" role="tab"
+                                            aria-controls="v-pills-tab11"
+                                            aria-selected="false">Yieldstreet
+                                            Wallet</a>
+                                        <a class="nav-link"
+                                            id="v-pills-tab12-tab"
+                                            data-toggle="pill"
+                                            href="#v-pills-tab12" role="tab"
+                                            aria-controls="v-pills-tab12"
+                                            aria-selected="false">Borrowers/Originators</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-9 col-lg-9">
+                                    <div class="tab-content"
+                                        id="v-pills-tabContent">
+                                        <div class="tab-pane fade show active"
+                                            id="v-pills-tab1" role="tabpanel"
+                                            aria-labelledby="v-pills-tab1-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab2" role="tabpanel"
+                                            aria-labelledby="v-pills-tab2-tab">
+                                            <h2>Investor accreditation</h2>
+                                            <div class="accordion" id="faq-2">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-2_headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-2_collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="faq-2_collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="faq-2_collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="faq-2_headingOne"
+                                                        data-parent="#faq-2">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-2_headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-2_collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-2_collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-2_collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-2_headingTwo"
+                                                        data-parent="#faq-2">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-2_headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-2_collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-2_collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div
+                                                        id="faq-2_collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-2_headingThree"
+                                                        data-parent="#faq-2">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab3" role="tabpanel"
+                                            aria-labelledby="v-pills-tab3-tab">
+                                            <h2>Investing with an IRA</h2>
+                                            <div class="accordion" id="faq-3">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-3_headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-3_collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="faq-3_collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="faq-3_collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="faq-3_headingOne"
+                                                        data-parent="#faq-3">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-3_headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-3_collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-3_collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-3_collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-3_headingTwo"
+                                                        data-parent="#faq-3">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-3_headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-3_collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-3_collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-3_collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-3_headingThree"
+                                                        data-parent="#faq-3">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab4" role="tabpanel"
+                                            aria-labelledby="v-pills-tab4-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-4">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-4_headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-4_collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="faq-4_collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="faq-4_collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="faq-4_headingOne"
+                                                        data-parent="#faq-4">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-4_headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-4_collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-4_collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-4_collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-4_headingTwo"
+                                                        data-parent="#faq-4">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-4_headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-4_collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-4_collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-4_collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-4_headingThree"
+                                                        data-parent="#faq-4">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab5" role="tabpanel"
+                                            aria-labelledby="v-pills-tab5-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-5">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-5_headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-5_collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="faq-5_collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="faq-5_collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="faq-5_headingOne"
+                                                        data-parent="#faq-5">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-5_headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-5_collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-5_collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-5_collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-5">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-5_headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-5_collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="faq-5_collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="faq-5_collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="faq-5_headingThree"
+                                                        data-parent="#faq-5">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab6" role="tabpanel"
+                                            aria-labelledby="v-pills-tab6-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-6">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="faq-6_headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#faq-6_collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="faq-6_collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="faq-6_collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-6">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab7" role="tabpanel"
+                                            aria-labelledby="v-pills-tab7-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab8" role="tabpanel"
+                                            aria-labelledby="v-pills-tab8-tab"><h2>Getting
+                                                started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab9" role="tabpanel"
+                                            aria-labelledby="v-pills-tab9-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab10" role="tabpanel"
+                                            aria-labelledby="v-pills-tab10-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab11" role="tabpanel"
+                                            aria-labelledby="v-pills-tab11-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="v-pills-tab12" role="tabpanel"
+                                            aria-labelledby="v-pills-tab12-tab">
+                                            <h2>Getting started</h2>
+                                            <div class="accordion" id="faq-1">
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseOne"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div id="collapseOne"
+                                                        class="collapse show"
+                                                        aria-labelledby="headingOne"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo"
+                                                        class="collapse"
+                                                        aria-labelledby="headingTwo"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header"
+                                                        id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <button class="btn
+                                                                btn-link
+                                                                btn-block
+                                                                text-left
+                                                                collapsed"
+                                                                type="button"
+                                                                data-toggle="collapse"
+                                                                data-target="#collapseThree"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseThree">
+                                                                How do I open an
+                                                                account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree"
+                                                        class="collapse"
+                                                        aria-labelledby="headingThree"
+                                                        data-parent="#faq-1">
+                                                        <div class="card-body">
+                                                            Anim pariatur cliche
+                                                            reprehenderit, enim
+                                                            eiusmod high life
+                                                            accusamus terry
+                                                            richardson ad squid.
+                                                            3 wolf moon officia
+                                                            aute, non cupidatat
+                                                            skateboard dolor
+                                                            brunch. Food truck
+                                                            quinoa nesciunt
+                                                            laborum eiusmod.
+                                                            Brunch 3 wolf moon
+                                                            tempor, sunt aliqua
+                                                            put a bird on it
+                                                            squid single-origin
+                                                            coffee nulla
+                                                            assumenda shoreditch
+                                                            et. Nihil anim
+                                                            keffiyeh helvetica,
+                                                            craft beer labore
+                                                            wes anderson cred
+                                                            nesciunt sapiente ea
+                                                            proident. Ad vegan
+                                                            excepteur butcher
+                                                            vice lomo. Leggings
+                                                            occaecat craft beer
+                                                            farm-to-table, raw
+                                                            denim aesthetic
+                                                            synth nesciunt you
+                                                            probably haven't
+                                                            heard of them
+                                                            accusamus labore
+                                                            sustainable VHS.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand text-capitalize" href="raiseCapitalDesktop.html">Accrete
+                        Capital</a>
+                    <ul class="navbar-nav mr-auto lg-device">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourFirm.html">our firm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stanleyCapital.html">stanley capital</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resourceCenterInsight.html">Resources Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">raise capital</a>
+                        </li>
+                    </ul>
+                    <div class="right-block">
+                        <p class="lg-device">© Copyright 2020. All
+                            Rights
+                            Reserved.</p>
+                        <ul class="social navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/insta.png"
+                                        alt="instagram" sizes=""
+                                        srcset=""></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/fb.png"
+                                        alt="facebook" sizes="" srcset=""></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/twt.png"
+                                        alt="twitter" sizes="" srcset=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

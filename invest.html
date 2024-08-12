@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/moblogo.png" alt="logo" width="160" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="modal"
+          data-target="#navmob"
+          aria-controls="navmob"
+          aria-expanded="false"
+        >
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="invest.html">invest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourFirm.html">our firm</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Resources Center</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="resourceCenterInsight.html"
+                  >insight</a
+                >
+                <a class="dropdown-item" href="resourceCenterUniversity.html"
+                  >university</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="raiseCapitalDesktop.html"
+                >raise capital</a
+              >
+            </li>
+          </ul>
+          <div class="right-block">
+            <a href="#" class="login nav-link">login</a>
+            <a href="signUp.html" class="sign-up nav-link">
+              <span class="align-middle">create acount</span>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div
+      class="modal"
+      tabindex="-1"
+      id="navmob"
+      aria-labelledby="navmob"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <nav class="navbar mob-menu" id="">
+            <ul class="nav navbar-nav flex-column">
+              <li class="nav-item get-str">
+                <a class="nav-link active" href="signUp.html"
+                  >Get Started
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="invest.html">Invest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourFirm.html">Our Firm</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDr"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Resources Center
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDr">
+                  <a class="dropdown-item" href="faq.html">FAQ</a>
+                  <a class="dropdown-item" href="resourceCenterInsight.html"
+                    >the blog “Accrue | Insights”</a
+                  >
+                  <a class="dropdown-item" href="resourceCenterUniversity.html"
+                    >Accrete University</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="raiseCapitalDesktop.html"
+                  >Raise Capital</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <main role="main" class="investdesk">
+      <section class="container-fluid page part1" id="part1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">
+                  How much would you like to invest in Coliseum Centre?
+                </h3>
+                <p>
+                  Enter your allocation request below to indicate your interest
+                  in this opportunity. Any final commitment is subject to your
+                  review of final offering documents, completion of your
+                  subscription agreement, and acceptance by Accrete Capital
+                </p>
+              </div>
+              <div class="mid-content">
+                <p>Enter your Investing Amount</p>
+                <input type="text" name="" id="" placeholder="$ 100,000" />
+                <span
+                  ><i class="fa fa-exclamation" aria-hidden="true"></i> Minimum
+                  investment size is $50,000</span
+                >
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part2');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part2');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid page hide part2" id="part2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">
+                  select one of the following investment entities...
+                </h3>
+                <p>
+                  Your information will be stored and automatically
+                  pre-populated for any future investments.
+                </p>
+              </div>
+              <div class="row mid-content">
+                <div class="form-check col-12">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="rda1"
+                    value="part2"
+                    checked
+                  />
+                  <label class="form-check-label" for="rda1">
+                    Theodore Harris
+                    <small>Individual Account</small>
+                  </label>
+                </div>
+                <div class="form-check col-12">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="rda2"
+                    value="part2"
+                  />
+                  <label class="form-check-label" for="rda2">
+                    Lorem Ipsum
+                    <small>Entity Account</small>
+                  </label>
+                </div>
+                <div class="form-check col-12">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="rda3"
+                    value="part2"
+                  />
+                  <label class="form-check-label" for="rda3">
+                    Lorem Ipsum
+                    <small>Entity Account</small>
+                  </label>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="adentity"
+                  >+ Add new Entity</a
+                >
+                <div class="ba10">
+                  <a
+                    class="text-capitalize text-center"
+                    onclick="showhide('part1');"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Back</a
+                  >
+                  <a
+                    onclick="showhide('part3');"
+                    class="text-capitalize text-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Next Step</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid page hide part2 part3" id="part3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">
+                  Which of the following best describes the investing entity?
+                </h3>
+                <p>
+                  Your information will be stored and automatically
+                  pre-populated for any future investments.
+                </p>
+              </div>
+              <div class="row mid-content">
+                <div class="form-check col-12">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="rda1"
+                    value="part2"
+                    checked
+                  />
+                  <label class="form-check-label" for="rda1">
+                    Individual Account
+                    <small
+                      >Invest using your legal name and tax information</small
+                    >
+                  </label>
+                </div>
+                <div class="form-check col-12">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="rda2"
+                    value="part2"
+                  />
+                  <label class="form-check-label" for="rda2">
+                    Entity Account
+                  </label>
+                </div>
+              </div>
+              <div class="row justify-content-end ba10">
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part2');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part4');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part4" id="part4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">Tell us more about yourself</h3>
+              </div>
+              <div class="row mid-content">
+                <h5 class="col-12">Primary Tenant</h5>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="FIRST NAME" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="LAST NAME" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">DATE OF BIRTH</div>
+                    </div>
+                    <input
+                      type="date"
+                      class="form-control"
+                      placeholder="20 / September / 2020"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">CITIZENSHIP</div>
+                    </div>
+                    <select
+                      class="custom-select"
+                      id="validationCustom04"
+                      required
+                    >
+                      <option selected disabled value="">Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="SOCIAL SECURITY / TAX ID"
+                  />
+                  <p>
+                    We need this to validate your identity as an investor on our
+                    platform and issue tax documents for your investments.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part3');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part5');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part5" id="part5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">General Information</h3>
+              </div>
+              <div class="row mid-content">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="NAME OF CORPORATION"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="TAXPAYER ID OR FOREIGN TAX ID"
+                  />
+                </div>
+
+                <h5 class="col-12">Where is the Investor formed?</h5>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">COUNTRY</div>
+                    </div>
+                    <select
+                      class="custom-select"
+                      id="validationCustom04"
+                      required
+                    >
+                      <option selected disabled value="">Choose...</option>
+                      <option>United Kingdom</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="STATE" />
+                </div>
+
+                <h6 class="col-12">
+                  Investor is a wholly-owned or majority-owned subsidiary of
+                  another entity
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="customRadioInline1"
+                    name="customRadioInline1"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="customRadioInline1">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="customRadioInline2"
+                    name="customRadioInline1"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="customRadioInline2">No</label>
+                </div>
+
+                <h6 class="col-12">
+                  Investor is exempt from U.S. federal income tax
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1"
+                    name="rdao1"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao2"
+                    name="rdao1"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao2">No</label>
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id="desc"
+                    placeholder="Describe"
+                    class="d-block desc"
+                  />
+                </div>
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part4');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part6');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part6" id="part6">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">Primary Address</h3>
+                <p>
+                  Please list your residence address (for individuals) or
+                  primary place of business (entities). No P.O. Box or care of
+                  addresses.
+                </p>
+              </div>
+              <div class="row mid-content">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">COUNTRY</div>
+                    </div>
+                    <select
+                      class="custom-select"
+                      id="validationCustom04"
+                      required
+                    >
+                      <option selected disabled value="">Choose...</option>
+                      <option>United Kingdom</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="STREET 1" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="STREET 2" />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="CITY" />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="STATE" />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="ZIP CODE" />
+                </div>
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part5');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part7');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part7" id="part7">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">
+                  Nature of Investor's Participation
+                </h3>
+              </div>
+              <div class="row mid-content">
+                <h6 class="col-12">
+                  Investor is subscribing for the Interests with the intent to
+                  sell, distribute, or transfer the Interests to any other
+                  person or persons.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rad1"
+                    name="rad1"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rad1">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rad2"
+                    name="rad1"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rad2">No</label>
+                </div>
+
+                <h6 class="col-12">
+                  Investor is subscribing for the Interests as agent, nominee,
+                  trustee, partner or otherwise on behalf of, for the account
+                  of, or jointly with any other person or entity.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1a"
+                    name="rdao1a"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1a">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1b"
+                    name="rdao1a"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1b">No</label>
+                </div>
+
+                <h6 class="col-12">
+                  A person or persons other than the Investor has a beneficial
+                  interest in the Interest acquired.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1c"
+                    name="rdao1e"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1c">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao2d"
+                    name="rdao1e"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao2d">No</label>
+                </div>
+
+                <h6 class="col-12">
+                  Investor controls, or the Investor is controlled by, or under
+                  common control with, any other existing or prospective
+                  investor in the Partnership.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1f"
+                    name="rdao1f"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1f">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao2g"
+                    name="rdao1f"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao2g">No</label>
+                </div>
+
+                <h4 class="col-12">Investor Suitability</h4>
+                <p>
+                  The following questions help us verify investor understanding
+                  and ability to bear the potential risks of investing in this
+                  transaction
+                </p>
+
+                <h6 class="col-12">
+                  Investor is able to bear the economic risk of the proposed
+                  investment.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1h"
+                    name="rdao1h"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1h">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao2i"
+                    name="rdao1h"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao2i">No</label>
+                </div>
+
+                <h6 class="col-12">
+                  Investor has previously made an investment in a private
+                  investment fund in which the investment manager(s) was/were
+                  entitled to compensation based on the fund’s investment
+                  performance.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1j"
+                    name="rdao1j"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1j">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao2k"
+                    name="rdao1j"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao2k">No</label>
+                </div>
+
+                <h6 class="col-12">
+                  Investor has sufficient knowledge and experience in financial
+                  and business matters as to be capable of evaluating the merits
+                  and risks associated with the investment.
+                </h6>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao1l"
+                    name="rdao1l"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao1l">Yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input
+                    type="radio"
+                    id="rdao2m"
+                    name="rdao1l"
+                    class="custom-control-input"
+                  />
+                  <label class="" for="rdao2m">No</label>
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id="desc"
+                    placeholder="Describe"
+                    class="d-block desc"
+                  />
+                </div>
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part6');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part8');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part8" id="part8">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">Bank Information</h3>
+                <p>
+                  Please provide details below regarding the bank account the
+                  Investor will use for investments. Distributions for
+                  investments in your portfolio will be sent to the account
+                  designated below.
+                </p>
+              </div>
+              <div class="row mid-content">
+                <span class="col-12">Branch Location</span>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">COUNTRY</div>
+                    </div>
+                    <select
+                      class="custom-select"
+                      id="validationCustom04"
+                      required
+                    >
+                      <option selected disabled value="">Choose...</option>
+                      <option>United Kingdom</option>
+                    </select>
+                  </div>
+                </div>
+                <span class="col-12">Beneficiary Bank</span>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="BANK NAME" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="WIRE ROUTING" />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="NAME ON ACCOUNT"
+                  />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="ACCOUNT NUMBER"
+                  />
+                </div>
+
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="customCheck1" />
+                  <label class="" for="customCheck1">For Further Credit</label>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="NAME ON ACCOUNT"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="ACCOUNT NUMBER"
+                  />
+                </div>
+
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="customCheck2" />
+                  <label class="" for="customCheck2">Intermediary Bank</label>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input type="text" name="" id="" placeholder="BANK NAME" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="WIRE ROUTING / Swift code"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="NAME ON ACCOUNT"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="ACCOUNT NUMBER"
+                  />
+                </div>
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part7');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part9');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part9" id="part9">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">Electronic Notice Consent</h3>
+                <p>
+                  We use our platform and e-mail to send notices to our clients
+                  pursuant to the terms of the subscription documents. If you
+                  prefer to receive notices in a different format, please
+                  contact us at investments@Accrete Capital.com.
+                </p>
+              </div>
+              <div class="row mid-content">
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="prt9" />
+                  <label class="" for="prt9"
+                    >Investor consents to electronic delivery of tax documents
+                    and notices for investments.</label
+                  >
+                </div>
+              </div>
+              <div
+                class="row justify-content-lg-end justify-content-md-end ba10"
+              >
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part8');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Back</a
+                >
+                <a
+                  onclick="showhide('part10');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Next Step</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part10" id="part10">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">Investor Information Summary</h3>
+                <p>
+                  Please review and update the investor information below as
+                  necessary. This information will be prepopulated in your
+                  investment documents. Click below to continue and sign.
+                </p>
+              </div>
+              <div class="mid-content">
+                <div class="row justify-content-between row-1">
+                  <div class="txt">
+                    <span class="col-3">Investor Type</span>
+                    <small class="col-9">Individual</small>
+                  </div>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+
+                <div class="row justify-content-between row-2">
+                  <h5 class="col">Joint Tenant Information</h5>
+                  <a
+                    class="col-2"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+
+                <div class="row row-3">
+                  <span class="col-3">Name</span>
+                  <small class="col-9">Sara Sara</small>
+                  <h6 class="col-12">Primary Tenant</h6>
+                  <span class="col-3">Legal Name</span>
+                  <small class="col-9">Sara Sara</small>
+                  <span class="col-3">Citizenship</span>
+                  <small class="col-9">United States</small>
+                  <span class="col-3">Date of Birth</span>
+                  <small class="col-9">20 / September / 1998</small>
+                  <span class="col-3">Social Security Number</span>
+                  <small class="col-9">United States</small>
+                </div>
+                <div class="row justify-content-between row-4">
+                  <h5 class="col">Address</h5>
+                  <a
+                    class="col-2"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+
+                <div class="row row-5">
+                  <span class="col-3">Primary Address</span>
+                  <small class="col-9"
+                    >20 Garfield, Oak Park, IL 60304,<br />
+                    USA, AK 37016<br />
+                    United States</small
+                  >
+                </div>
+                <div class="row justify-content-between row-6">
+                  <h5 class="col">Investor Status</h5>
+                  <a
+                    class="col-2"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+
+                <div class="row row-7">
+                  <span class="col-3">Nature of Investment</span>
+                  <small class="col-9">Complete</small>
+                  <span class="col-3">Investor Suitability</span>
+                  <small class="col-9">Complete</small>
+                </div>
+                <div class="row justify-content-between row-8">
+                  <h5 class="col">Accreditation Status</h5>
+                  <a
+                    class="col-2"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+
+                <div class="row row-9">
+                  <span class="col-3">Qualified Purchaser</span>
+                  <small class="col-9"
+                    ><b>YES</b>, Investor is a person with greater than U.S.
+                    $5,000,000 of investments.</small
+                  >
+                  <span class="col-3">Accredited Investor</span>
+                  <small class="col-9"
+                    ><b>YES</b>, Investor is a natural person who had an
+                    individual income in excess of U.S. $200,000 in each of the
+                    two most recent years or joint income with spouse in excess
+                    of U.S. $300,000 in each of those years and has a reasonable
+                    expectation of reaching the same income level in the current
+                    year.</small
+                  >
+                </div>
+
+                <div class="row justify-content-between row-10">
+                  <h5 class="col">Bank Information</h5>
+                  <a
+                    class="col-2"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+                <div class="row row-11">
+                  <span class="col-3">Location</span>
+                  <small class="col-9">United States</small>
+                  <span class="col-3">Bank Account</span>
+                  <small class="col-9"
+                    >xcxccx<br />
+                    czxdczx ending in 2014</small
+                  >
+                </div>
+
+                <div class="row justify-content-between row-12">
+                  <h5 class="col">Communication Preferences</h5>
+                  <a
+                    class="col-2"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><u>Edit</u></a
+                  >
+                </div>
+
+                <div class="row row-13">
+                  <span class="col-3">Electronic Notice Consent</span>
+                  <small class="col-9">Yes</small>
+                </div>
+              </div>
+              <div class="row justify-content-end ba101">
+                <a
+                  onclick="showhide('part11');"
+                  class="text-capitalize text-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Continue</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part11" id="part11">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <div class="header">
+                <h3 class="font-weight-bold">Electronic Notice Consent</h3>
+                <p>
+                  Please check each checkbox to indicate you have read and agree
+                  to all terms in the investment documents for fdgdfg dfg
+                  gdgdffdg & gfdgfddfg dfgfgfdfg as Joint Tenants (the
+                  “Investor”). You should keep a copy of these documents for
+                  your records. The co-investor must be present when signatures
+                  are submitted.
+                </p>
+              </div>
+              <div class="row mid-content">
+                <h6 class="col-12">Agreements and Disclosures</h6>
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="prt9a" />
+                  <label class="" for="prt9a"></label>
+                  <p>
+                    I have read and agree to the
+                    <a href="#"
+                      ><u
+                        >Electronic Communications and Signature Agreement</u
+                      ></a
+                    >.
+                  </p>
+                </div>
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="prt9b" />
+                  <label class="" for="prt9b"></label>
+                  <p>
+                    On behalf of the Investor, I have read and agree to the
+                    <a href="#"><u>Subscription Agreement</u></a> including the
+                    grant of Power of Attorney as described in Section VI.
+                  </p>
+                </div>
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="prt9c" />
+                  <label class="" for="prt9c"></label>
+                  <p>
+                    On behalf of the Investor, I completed or reviewed the
+                    Investor Information Form and agree with all of the
+                    information and agreements made therein.
+                  </p>
+                </div>
+                <div class="col-12 custom-control custom-checkbox">
+                  <input type="checkbox" class="" id="prt9d" />
+                  <label class="" for="prt9d"></label>
+                  <p>
+                    Under penalties of perjury, I certify that I have completed
+                    or reviewed the Tax Form and the information it contains is
+                    true, complete, and correct.
+                  </p>
+                </div>
+                <h6 class="col-12 signat">Signature</h6>
+                <span class="col-12 signature"
+                  >Investor :
+                  <p>Micheal Numero</p></span
+                >
+              </div>
+              <div class="row justify-content-end ba101">
+                <a
+                  class="text-capitalize text-center"
+                  onclick="showhide('part12');"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Submit</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pg2 page hide part12" id="part12">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+              <div class="header text-center">
+                <i class="fa fa-check" aria-hidden="true"></i>
+                <h3 class="font-weight-bold">
+                  We have received and are reviewing your completed subscription
+                  documents.
+                </h3>
+                <div class="down">
+                  <i class="fa fa-paperclip" aria-hidden="true"></i>
+                  <a href="#"><u>Download your Subscription Documents</u></a>
+                </div>
+                <div class="ba101 row justify-content-center">
+                  <a
+                    class="text-capitalize col-lg-8 text-center"
+                    onclick="showhide('part8');"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Done</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand text-capitalize" href="#">Accrete Capital</a>
+
+          <ul class="navbar-nav mr-auto lg-device">
+            <li class="nav-item">
+              <a class="nav-link" href="invest.html">Invest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourFirm.html">Our Firm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources Center</a>
+              <ul class="list-unstyled">
+                <li><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li>
+                  <a class="nav-link" href="resourceCenterInsight.html"
+                    >the blog “Accrue | Insights”</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link" href="resourceCenterUniversity.html"
+                    >Accrete University</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="raiseCapitalDesktop.html"
+                >Raise Capital</a
+              >
+            </li>
+          </ul>
+          <div class="right-block">
+            <p class="lg-device">© Copyright 2020. All Rights Reserved.</p>
+            <ul class="social d-flex list-unstyled justify-content-between">
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  ><img
+                    src="./img/insta.png"
+                    alt="instagram"
+                    sizes=""
+                    srcset=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  ><img src="./img/fb.png" alt="facebook" sizes="" srcset=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  ><img src="./img/twt.png" alt="twitter" sizes="" srcset=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap3.min.js"></script>
+
+    <script>
+      function showhide(id) {
+        if (document.getElementById) {
+          var divid = document.getElementById(id);
+          var divs = document.getElementsByClassName("page");
+          for (var i = 0; i < divs.length; i++) {
+            divs[i].style.display = "none";
+          }
+          divid.style.display = "block";
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>

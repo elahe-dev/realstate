@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+    </head>
+    <body>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/moblogo.png" alt="logo" width="160">
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="modal" data-target="#navmob"
+                    aria-controls="navmob" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">invest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourFirm.html">our firm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                                data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true"
+                                aria-expanded="false">Resources Center</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item"
+                                    href="resourceCenterInsight.html">insight</a>
+                                <a class="dropdown-item"
+                                    href="resourceCenterUniversity.html">university</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">raise
+                                capital</a>
+                        </li>
+                    </ul>
+                    <div class="right-block">
+                        <a href="login.html" class="login nav-link">login</a>
+                        <a href="signUp.html" class="sign-up nav-link">
+                            <span class="align-middle">create acount</span>
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header> 
+        <div class="modal" tabindex="-1" id="navmob" aria-labelledby="navmob" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <nav class="navbar mob-menu" id="">
+                    <ul class="nav navbar-nav flex-column">
+                        <li class="nav-item get-str">
+                          <a class="nav-link active" href="signUp.html">Get Started
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="invest.html">Invest</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ourFirm.html">Our Firm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDr" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources Center
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDr">
+                              <a class="dropdown-item" href="faq.html">FAQ</a>
+                              <a class="dropdown-item" href="resourceCenterInsight.html">the blog “Accrue | Insights”</a>
+                              <a class="dropdown-item" href="resourceCenterUniversity.html">Accrete University</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">Raise Capital</a>
+                          </li>
+                      </ul>  
+                </nav>
+              </div>
+            </div>
+        </div>
+        <main role="main" class="signUp">
+            <section class="container-fluid page pg1" id="stp1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-6 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <h3>Review investment teasers</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="video">
+                                <!--Video source-->
+                                <a class="img-fluid z-depth-1"
+                                    data-toggle="modal" data-target="#modal1">
+                                    <i class="fa fa-play" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="footer">
+                                <ul class="list-unstyled">
+                                    <li><h2>Create an Account</h2></li>
+                                    <li><a onclick="showhide('stp2');" class="text-capitalize
+                                            text-center" target="_blank"
+                                            rel="noopener noreferrer">sign up</a></li>
+                                    <li>
+                                        <div><p>Already have an account?</p>
+                                            <a href="login.html" target="_blank"
+                                                rel="noopener noreferrer"><u>Sign
+                                                    in</u></a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid page hide pg2" id="stp2">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active"><span></span><h6>Start</h6></li>
+                                    <li class=""><span></span><h6>Pre sign up
+                                            <small class="d-block xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-6 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <h4>Which of the following best describes you?</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="cover" onclick="showhide('stp3');">
+                                        <h5 class="text-capitalize">Individual
+                                            Investor</h5>
+                                        <p>I would like to invest on behalf of
+                                            myself, my family, or my company.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="cover" onclick="showhide('stp3');">
+                                        <h5 class="text-capitalize">Financial
+                                            Advisor</h5>
+                                        <p>I would like to invest on behalf of
+                                            my clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid page hide pg3" id="stp3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active"><span></span><h6>Start</h6></li>
+                                    <li class=""><span></span><h6>Pre sign up
+                                            <small class="d-block xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-8 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <h3>Are you an accredited investor?</h3>
+                                <p>As a regulated investment platform, we are required to learn more about you before creating your account.</p>
+                            </div>
+                            <div class="list-txt">
+                                <p>Generally, you are an accredited investor if any of the following are true</p>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>Annual income greater than $200k (for the last 2 years)</p>
+                                    </li>
+                                    <li>
+                                        <p>Joint household income greater than $300k (for the last 2 years)</p>
+                                    </li>
+                                    <li>
+                                        <p>Net worth greater than $1M (excluding your primary residence)</p>
+                                    </li>
+                                </ul>
+                                    <h6 class="d-block"> <u>Read the full SEC definition</u> </h6>                                    
+                               
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 ba10L">
+                                        <a class="d-inline-block">Yes</a>
+                                    <a class="d-inline-block">No</a>
+                                    </div>
+                                    <div class="col-12 col-lg-6 ba10">
+                                        <a onclick="showhide('stp2');" class="d-inline-block">Back</a>
+                                    <a onclick="showhide('stp4');" class="d-inline-block">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container-fluid page hide pg4" id="stp4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active"><span></span><h6>Start</h6></li>
+                                    <li class=""><span></span><h6>Pre sign up
+                                            <small class="d-block xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-9 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <h4>Tell us more about yourself</h4>
+                            </div>
+                            <div class="list-input">
+                                <form>
+                                    <div class="form-row">
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                      </div>
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">Phone number</div>
+                                              </div>
+                                            <input type="text" class="form-control" placeholder="(+44)">
+                                        </div>
+                                      </div>
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                      </div>
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">country</div>
+                                              </div>
+                                            <input type="text" class="form-control" placeholder="United Kingdom">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                            </div>
+                            <div class="footer">
+                                <div class="row justify-content-between">
+                                    <div class="col-lg-8 col-12">
+                                        <p>By clicking Next, you agree to Accrete’s 
+                                            <a href="#" target="_blank" rel="noopener noreferrer">Non-Disclosure Agreement</a>, 
+                                            <a href="#" target="_blank" rel="noopener noreferrer">Terms of Service</a>, and
+                                            <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                            and acknowledge that you’ve read and understand our 
+                                            <a href="#" target="_blank" rel="noopener noreferrer">Form CRS</a>
+                                            and 
+                                            <a href="#" target="_blank" rel="noopener noreferrer">Regulation Best Interest Disclosure</a> .</p></div>
+                                    <div class="col-lg-4 col-12 ba10">
+                                        <a onclick="showhide('stp3');" target="_blank" rel="noopener noreferrer">Back</a>
+                                        <a onclick="showhide('stp5');" target="_blank" rel="noopener noreferrer">Next Step</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container-fluid page hide pg5" id="stp5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active"><span></span><h6>Start</h6></li>
+                                    <li class=""><span></span><h6>Pre sign up
+                                            <small class="d-block xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-9 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <h3>Create your account</h3>
+                                <p>Your account will give you access to our investment opportunities.</p>
+                            </div>
+                            <div class="list-input">
+                                <form>
+                                    <div class="form-row">
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <input type="email" class="form-control" placeholder="Enter your email address">
+                                      </div>
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                            <input type="password" class="form-control" placeholder="Password">
+                                      </div>
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <p>
+                                            Check your email and <a href="#" target="_blank" rel="noopener noreferrer">Verify your account</a> 
+                                        </p>
+                                      </div>
+                                      <div class="col-12 col-lg-6 col-md-6">
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" placeholder="Retype Password">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                            </div>
+                            <div class="footer">
+                                <div class="row justify-content-end">
+                                    <div class="col-lg-6 col-md-8 col-12 ba10">
+                                        <a onclick="showhide('stp4');" target="_blank" rel="noopener noreferrer">Back</a>
+                                        <a onclick="showhide('stp6');" target="_blank" rel="noopener noreferrer">Next Step</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="container-fluid page hide pg6" id="stp6">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active exit"><span></span><h6>Start</h6></li>
+                                    <li class="active"><span></span><h6>Pre sign up
+                                            <small class="d-block xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-9 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                                <h2>Please check your Email </h2>
+                                <span>Check your email and <a  onclick="showhide('stp7');" target="_blank" rel="noopener noreferrer"><u>Verify your account</u></a> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="container-fluid page hide pg7" id="stp7">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-md-10
+                            justify-content-center">
+                            <div class="prgres">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="active exit"><span></span><h6>Start</h6></li>
+                                    <li class="active"><span></span><h6>Pre sign up
+                                            <small class="d-block xsm-device">General
+                                                access</small></h6></li>
+                                    <li class=""><span></span><h6>Questionnaire
+                                            <small class="d-block xsm-device">Financial
+                                                Info</small></h6></li>
+                                    <li class=""><span></span><h6>KYC <small
+                                                class="d-block xsm-device">Confidential
+                                                Info access</small></h6></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-10 col-lg-9 col-md-9
+                            justify-content-center">
+                            <div class="header">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                <h2>Email address verified.</h2>
+                                <span>Thank you for confirming.</span>
+                            </div>
+                            <div class="footer">
+                                <div class="row justify-content-end">
+                                    <div class="col-lg-8 col-md-7 col-12">
+                                        <h4>Welcome , we’re excited to partner with you</h4>
+                                        <p>On the following pages, we’ll ask a few questions to get to know you better.
+                                            There are no wrong answers.</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-12 ba10">
+                                        <a target="_blank" rel="noopener noreferrer">Skip</a>
+                                        <a target="_blank" rel="noopener noreferrer">Start</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand text-capitalize" href="#">Accrete
+                        Capital</a>
+                    <ul class="navbar-nav mr-auto lg-device">
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourFirm.html">our firm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stanleyCapital.html">stanley
+                                capital</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="raiseCapitalDesktop.html">raise
+                                capital</a>
+                        </li>
+                    </ul>
+                    <div class="right-block">
+                        <p class="lg-device">© Copyright 2020. All Rights
+                            Reserved.</p>
+                        <ul class="social navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/insta.png"
+                                        alt="instagram" sizes=""
+                                        srcset=""></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/fb.png"
+                                        alt="facebook" sizes="" srcset=""></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"
+                                    target="_blank" rel="noopener
+                                    noreferrer"><img src="./img/twt.png"
+                                        alt="twitter" sizes="" srcset=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog"
+            aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <!--Content-->
+                <div class="modal-content">
+
+                    <!--Body-->
+                    <div class="modal-body mb-0 p-0">
+                        <video class="video-fluid" autoplay loop muted>
+                            <source
+                                src="https://mdbootstrap.com/img/video/Lines.mp4"
+                                type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-black-strong"></div>
+
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-outline-primary
+                            btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+function showhide(id){
+        if (document.getElementById) {
+          var divid = document.getElementById(id);
+          var divs = document.getElementsByClassName("page");
+          for(var i = 0; i < divs.length; i++) {
+    divs[i].style.display = "none";
+}
+          divid.style.display = "block";
+        } 
+        return false;
+ }    
+        </script>
+    </body>
+
+</html>
